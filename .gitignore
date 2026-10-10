@@ -1,0 +1,22 @@
+# 비밀값·키
+.env
+.env.*
+*.pem
+*.key
+*recovery-codes*
+# 문서 파일 형식 — 개인정보가 든 자료가 섞여 들어오지 않게
+*.hwp
+*.hwpx
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.pdf
+# 운영체제·임시 파일
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+# 이 컴퓨터에만 적용되는 설정
+.claude/
