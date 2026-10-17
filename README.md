@@ -2,7 +2,7 @@
 
 **2021. 1. 1. 이후 선고된 대법원 전원합의체 판결·결정을 분야별로 모아, 사실관계·쟁점·다수의견·종전 판례 변경·별개·반대의견을 판결문 원문 그대로 인용해 정리한 저장소입니다. 모든 인용은 법제처 공개 원문과 글자 단위로 대조했습니다.**
 
-- 웹에서 보기: GitHub Pages 소개 페이지(분야·연도 필터, 검색)
+- 웹에서 보기: [nackboom.github.io/supreme-court-decisions](https://nackboom.github.io/supreme-court-decisions/) — GitHub Pages 소개 페이지(분야·연도 필터, 검색)
 - 정리 기준: [`CLAUDE.md`](CLAUDE.md)
 
 ## 정리 원칙

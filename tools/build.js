@@ -120,6 +120,7 @@ const rowsHtml = cases.map(c => `<tr data-f="${c.folder}" data-y="${c.year}" dat
 fs.writeFileSync("docs/index.html", page("대법원 전원합의체 판결·결정 정리", `
 <h1>대법원 전원합의체 판결·결정 정리 (2021. 1. ~ )</h1>
 <p>쟁점·사실관계·다수의견·종전 판례 변경·별개·반대의견을 판결문 원문 그대로 인용해 정리했습니다. 모든 인용은 법제처 공개 원문과 글자 단위로 대조했습니다. <span class="note">총 ${cases.length}건</span></p>
+<p class="note"><a href="${REPO}">저장소 보기</a> — 원문 파일·정리 기준·변경 이력</p>
 <div class="filters"><select id="f">${opts(FIELDS, "분야")}</select><select id="y">${opts(years, "연도")}</select><input id="q" type="search" placeholder="사건번호·사건명·쟁점 검색"></div>
 <table class="list"><thead><tr><th>선고일</th><th>사건</th><th>쟁점</th><th class="hide-m">분야</th><th class="hide-m">종전 판례 변경</th></tr></thead><tbody id="rows">${rowsHtml}</tbody></table>
 <p class="note" id="cnt"></p>
